@@ -2,6 +2,7 @@ namespace MathLibraryTest;
 
 public class UnitTestSquare
 {
+    // Проверка подсчёта площади круга
     [Fact]
     public void TestCircleSquare()
     {
@@ -11,7 +12,7 @@ public class UnitTestSquare
         Assert.Equal(result, MathLibrary.Math.Square(radius));
     }
     
-    
+    // Проверка подсчёта площади треугольника
     [Fact]
     public void TestTriangleSquare()
     {
@@ -21,6 +22,7 @@ public class UnitTestSquare
         Assert.Equal(result, MathLibrary.Math.Square(a, b, c));
     }
     
+    // Проверка треугольника на то, является ли он прямоугольным. Зелёный тест
     [Fact]
     public void TestIsRightTriangleGreen()
     {
@@ -30,6 +32,7 @@ public class UnitTestSquare
         Assert.Equal(result, MathLibrary.Math.isRightTriangle(a, b, c));
     }
     
+    // Проверка треугольника на то, является ли он прямоугольным. Красный тест
     [Fact]
     public void TestIsRightTriangleRed()
     {
