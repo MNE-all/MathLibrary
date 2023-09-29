@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLibrary", "MathLibrary\MathLibrary.csproj", "{F4A5DFAC-33A7-4FC7-A57B-BBC6F73F3318}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLibraryTest", "MathLibraryTest\MathLibraryTest.csproj", "{C9DC0F5C-A98E-441C-B8F5-8CD7E8ACEC34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{F4A5DFAC-33A7-4FC7-A57B-BBC6F73F3318}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4A5DFAC-33A7-4FC7-A57B-BBC6F73F3318}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4A5DFAC-33A7-4FC7-A57B-BBC6F73F3318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9DC0F5C-A98E-441C-B8F5-8CD7E8ACEC34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DC0F5C-A98E-441C-B8F5-8CD7E8ACEC34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DC0F5C-A98E-441C-B8F5-8CD7E8ACEC34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DC0F5C-A98E-441C-B8F5-8CD7E8ACEC34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
